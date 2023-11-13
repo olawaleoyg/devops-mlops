@@ -1,0 +1,19 @@
+- use alpine image:latest
+- install terraform, check the version its installed
+- install aws cli, confirm with version
+- configure aws with the credential - access key, secret key, region
+- install git cli into the image
+
+
+
+
+JEnkins pipeline configuration
+set aws credential variables
+- git clone devops repo
+- cd into devops/terraform
+- run terraform init, plan and apply --auto-approve
+-
+
+adey credential
+AKIAWGUZGZYB5DMP5GN6
+uq4QDQNimzShvkP25nfdFOuvhV/VQW8oeTdUYyCU

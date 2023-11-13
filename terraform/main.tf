@@ -26,6 +26,6 @@ provider "aws" {
   # volume_size = "8"
 
   tags = {
-    Name = "test"
+    Name = "NEW RUN"
   }
 }

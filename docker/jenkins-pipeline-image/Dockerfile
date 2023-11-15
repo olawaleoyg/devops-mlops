@@ -9,7 +9,8 @@ RUN apk update && \
     unzip \
     python3 \
     py3-pip \
-    git
+    git \
+    make
 
 # Install Terraform
 ARG TERRAFORM_VERSION=1.6.3
@@ -23,8 +24,7 @@ RUN apk add --no-cache python3 && \
     pip3 install awscli
 
 # Display Terraform and AWS CLI versions
-RUN terraform version && aws --version
-
+RUN terraform version && aws --version && git --version && make --version
 # Set the working directory
 WORKDIR /app
 

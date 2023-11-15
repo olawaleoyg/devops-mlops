@@ -1,4 +1,3 @@
-NOTES:
 1. Get your 'admin' user password by running:
   kubectl exec --namespace jenkins -it svc/jenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo
 2. Get the Jenkins URL to visit by running these commands in the same shell:

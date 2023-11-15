@@ -1,7 +1,7 @@
 
 
 /* create ec2 instance */
-  resource "aws_instance" "example_server1" {
+  resource "aws_instance" "testJenkins" {
   ami           = "ami-0eb260c4d5475b901"
   instance_type = "t2.micro"
   subnet_id = "subnet-00be2de1445cb3a00"
